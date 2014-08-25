@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Sistema de Visitas Alfaomega
+    #description:  symfony project
+    #keywords:     symfony, project
+    language:     es
+    #robots:       index, follow
+
+  stylesheets:    [main.css, normalize.css, foundation.css]
+
+  javascripts:    [vendor/modernizr.js, vendor/jquery.js, foundation.min.js, foundation/foundation.topbar.js]
+
+  has_layout:     true
+  layout:         layout
